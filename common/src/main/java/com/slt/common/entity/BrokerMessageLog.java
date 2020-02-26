@@ -11,7 +11,7 @@ public class BrokerMessageLog {
 
     private Integer tryCount;
 
-    private String status;
+    private String status;// 0 发送中 1 成功 2 失败
 
     private Date nextRetry;
 
