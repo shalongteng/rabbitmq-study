@@ -21,6 +21,4 @@ CREATE TABLE IF NOT EXISTS `broker_message_log` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-
-
 -- MySQL5.6以后timestamp设定默认值规则改变，不能为"0000 00-00 00:00:00"
