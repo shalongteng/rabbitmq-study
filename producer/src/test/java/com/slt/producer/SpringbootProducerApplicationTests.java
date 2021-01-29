@@ -33,7 +33,7 @@ public class SpringbootProducerApplicationTests {
     @Test
     public void testSend2() throws Exception {
         Order order = new Order();
-        order.setId(2000092101);
+        order.setId(2000092109);
         order.setName("测试订单1");
         order.setMessageId(System.currentTimeMillis()+"$"+UUID.randomUUID().toString());
         orderService.createOrder(order);
