@@ -6,7 +6,7 @@
     2、安装RabiitMQ的可视化监控插件
            // 切换到MQ目录,注意你的安装版本可能不是3.7.14
            cd /usr/local/Cellar/rabbitmq/3.7.14/sbin
-           // 启用rabbitmq management插件
+           // 启用rabbitmq management插件,才会有web页面。
            sudo sbin/rabbitmq-plugins enable rabbitmq_management
            
     3、配置环境变量

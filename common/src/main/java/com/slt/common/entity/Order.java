@@ -15,6 +15,7 @@ import java.io.Serializable;
 public class Order implements Serializable {
     private int id;
     private String name;
+    //存储消息发送的唯一标识
     private String messageId;
 
 }

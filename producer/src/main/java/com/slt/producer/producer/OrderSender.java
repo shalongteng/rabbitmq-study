@@ -19,8 +19,8 @@ public class OrderSender {
         CorrelationData correlationData = new CorrelationData();
         correlationData.setId(order.getMessageId());
 
-        rabbitTemplate.convertAndSend("order-exchange",//exchange
-                "order.abcd",//路由键
+        rabbitTemplate.convertAndSend("order-exchange",//exchange 交换机
+                "order.abcd",//routingKey 路由键
                 order,//消息内容
                 correlationData);//消息唯一id
 
